@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Face recognition data
+dataset/
+*.yml
+
+# PostgreSQL / local secrets
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# React build
+dist/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# ZIP backups
+*.zip
+# Local attendance data and logs
+attendance.csv
+*.log
