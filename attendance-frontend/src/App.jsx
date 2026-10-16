@@ -4,7 +4,8 @@ import SummaryCards from "./SummaryCards";
 import "./App.css";
 
 function App() {
-    const [attendance, setAttendance] = useState([]);
+    const [attendance, setAttendance] = useState([{ id: 1, studentName: "Rahul Sharma", studentId: "STU001", date: "2026-03-30", status: "Present" },
+        { id: 2, studentName: "Priya Patel", studentId: "STU002", date: "2026-03-30", status: "Present" }]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
     const [selectedDate, setSelectedDate] = useState("");
