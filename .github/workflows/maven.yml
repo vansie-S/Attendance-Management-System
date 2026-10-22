@@ -22,5 +22,5 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build and run tests
-        working-directory: attendance-backend/attendance-backend
+      
         run: chmod +x mvnw && ./mvnw -B test
